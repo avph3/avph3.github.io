@@ -1,0 +1,86 @@
+header {
+    text-align: center;
+}
+
+article{
+    width: auto;
+    background-color: #FFC100;
+    margin: 0 auto;
+}
+footer{
+    width: 800px;
+    background-color: #FFD700;
+    margin: 0 auto;
+}
+
+#home{
+     font-size: 300%;  
+  font:color black;
+}
+#contact{
+  font-size: 20px;  
+  font:color black;
+}
+#contact a {
+    color: white;
+    text-align:center;
+    font-size: 300%;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#contact a:link{
+    color: black;
+}
+#contact a:visited{
+    color: white;
+}
+#contact a:hover{
+    color:#CCAC00;}
+    
+#contact a:active{
+    color: #FFC100
+}
+nav {
+  width: auto; 
+  height: auto;
+}
+
+#foot{
+    font-size:20px;  
+    color: #000000;
+    background-color: #FFD700;
+}
+#social-icons {
+    color: white;
+    text-align:center;
+}
+#social-icons a{
+    font-size: 300%;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#social-icons a:link{
+    color: white;
+}
+#social-icons a:visited{
+    color: white;
+}
+#social-icons a:hover{
+    color:#CCAC00;}
+    
+    #social-icons a:active{
+    color: #FFC100
+}
+
+body {
+  background-image: url(/images/sunset.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#FF9900;
+}
