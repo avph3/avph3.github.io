@@ -97,3 +97,168 @@ body {
   background-size: cover;
   background-color:#FF9900;
 }
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Eduardo's Portfolio | Home</title>
+  <meta name="description" content="Eduardo's Portfolio website.">
+  <meta name="author" content="Eduardo Garcia">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    
+    <header>
+      <ul>
+        <li>Home</li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </header>
+    
+    <article>
+      
+      <div id="container">
+        <p>Hello this is some text.</p>
+        <div id="image-holder">
+          
+        </div>
+        <p>End of the content</p>
+      </div>
+      
+      <div></div>
+      
+      <div></div>
+      
+    </article>
+    
+    <footer>
+      
+      <p id="social-icons">
+        <a href="https://www.twitter.com/"><i  class="fab fa-twitter"></i><span class="social-text">Twitter</span></a>
+        <a href="https://wwww.linkedin.com/in/eagarcia8"><i class="fab fa-linkedin"></i><span class="social-text">LinkedIn</span></a>
+        <a href="https://www.google.com/"><i class="fab fa-google-plus-g"></i><span class="social-text">Google</span></a>
+        <a href="https://wwww.facebook.com/"><i class="fab fa-facebook"></i><span class="social-text">Facebook</span></a>
+        <br>
+      </p>
+      
+      <p>&copy; Copyright Eduardo Garcia</p>
+    </footer>
+    
+</body>
+</html>
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700|Montserrat');
+
+header {
+    width: 800px;
+    background-color: yellow;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+
+header ul {
+    display: block;
+    list-style-type: none;
+    -webkit-padding-start: 0;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px 0 10px;
+    padding-top: 10px;
+}
+
+header ul li:hover {
+    background-color: grey;
+}
+
+header ul li a {
+    color: white;
+}
+
+article {
+    width: 800px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+footer {
+    width: 800px;
+    background-color: LightGreen;
+    margin: 0 auto;
+}
+
+#social-icons {
+    text-align: center;
+    margin-left: 20px;
+    width: 600px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+#social-icons a:link {
+    font-size: 300%;
+    margin-right: 40px;
+    margin-top: 200px;
+    position: relative;
+    vertical-align: text-top;
+    color: white;
+    cursor: zoom-in;
+    background-color: darkgreen;
+}
+
+#social-icons a:visited {
+    color: grey;
+}
+
+#social-icons a:hover {
+    overflow: hidden;
+    position: relative;
+    top: -2px;
+    left: 2px;
+}
+
+#social-icons a:active {
+    color: yellow;
+}
+
+p, li {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Josefin Slab', serif;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+#image-holder {
+    left: 200px;
+    width: 250px;
+    height: 400px;
+    background-color: orange;
+}
