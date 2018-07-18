@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Lato');
+
 header {
     text-align: center;
 }
 
 article{
     width: auto;
-    background-color: #FFC100;
     margin: 0 auto;
 }
 footer{
@@ -21,7 +22,7 @@ footer{
   font-size: 20px;  
   font:color black;
 }
-#contact a {
+#contact i {
     color: white;
     text-align:center;
     font-size: 300%;
@@ -30,21 +31,28 @@ footer{
     padding-bottom: 10px;
     padding-left: 10px;
 }
-#contact a:link{
+#contact i:link{
     color: black;
 }
-#contact a:visited{
+#contact i:visited{
     color: white;
 }
-#contact a:hover{
-    color:#CCAC00;}
+#contact i:hover{
+    color: #FFC100;
     
-#contact a:active{
+}
+    
+#contact i:active{
     color: #FFC100
 }
 nav {
   width: auto; 
   height: auto;
+}
+
+#text {
+    font-size: medium;
+
 }
 
 #foot{
@@ -83,4 +91,26 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color:#FF9900;
+}
+
+p, li {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Josefin Slab', serif;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    
+}
+
+#image-holder {
+    position: relative;
+    top: 30px;
+    left: 200px;
+    width: 250px;
+    height: 400px;
 }
